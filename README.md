@@ -18,7 +18,10 @@ Examines how evidence from AI and agentic systems can be identified, preserved, 
 
 ## Open-source contributions
 
-- **[Free Law Project](https://free.law/)** — Contributed to [Litigant Portal](https://github.com/freelawproject/litigant-portal) and [CourtListener](https://github.com/freelawproject/courtlistener), including [prompt-artifact preservation](https://github.com/freelawproject/litigant-portal/pull/816), [auditable Markdown transcripts](https://github.com/freelawproject/litigant-portal/pull/834), [resilient chat fallback](https://github.com/freelawproject/litigant-portal/pull/985), and [corpus search scoping](https://github.com/freelawproject/courtlistener/pull/7988). These changes were merged upstream.
+- **[Free Law Project](https://free.law/)** — Merged contributions to [Litigant Portal](https://github.com/freelawproject/litigant-portal) and [CourtListener](https://github.com/freelawproject/courtlistener):
+  - **AI auditability:** Preserved prompt artifacts for chat exports ([PR #816](https://github.com/freelawproject/litigant-portal/pull/816)) and rendered them in Markdown audit transcripts ([PR #834](https://github.com/freelawproject/litigant-portal/pull/834)).
+  - **Reliability:** Implemented fallback behavior when AI is unavailable ([PR #985](https://github.com/freelawproject/litigant-portal/pull/985)).
+  - **Search infrastructure:** Consolidated corpus search scoping ([PR #7988](https://github.com/freelawproject/courtlistener/pull/7988)).
 - **[Harvey LAB](https://github.com/harveyai/harvey-labs)** — [Merged a runtime dependency fix](https://github.com/harveyai/harvey-labs/pull/215) for model-adapter packaging; [submitted an evaluation-reporting fix](https://github.com/harveyai/harvey-labs/pull/214) to generate scoped comparisons and surface failures (open for review).
 
 ## Connect
